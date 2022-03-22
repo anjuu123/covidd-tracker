@@ -15,11 +15,35 @@
 
     <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
 
-    <title>Covid Details</title>
+    <title>Covid Details Tracker</title>
 </head>
 <body>
        
     </body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+
+              <h1>Covid-19 Cases</h1>
+                
+          <table class="table table-danger" id="covidtable">
+                <thead class="thead-light">
+                  <tr>
+                    <th>Country</th>
+                    <th>Confirmed</th>
+                    <th>Recovered</th>
+                    <th>Deaths</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+              </table>
+
+            </div>
+        </div>
+    </div>
     <script src="./main.js"></script>
     
     </html>
